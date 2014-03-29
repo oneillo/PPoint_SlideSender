@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oPPT_Tools", "PPoint_SlideSender\oPPT_Tools.csproj", "{01B33C46-5C8A-4D88-9638-16F630C219D4}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "oPPT_Tools_Installer", "oPPT_Tools_Installer\oPPT_Tools_Installer.isproj", "{E669C667-A15E-48CD-BCE5-1CF01B6923CC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{01B33C46-5C8A-4D88-9638-16F630C219D4} = {01B33C46-5C8A-4D88-9638-16F630C219D4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01B33C46-5C8A-4D88-9638-16F630C219D4}.CD_ROM|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B33C46-5C8A-4D88-9638-16F630C219D4}.CD_ROM|Any CPU.Build.0 = Debug|Any CPU
+		{01B33C46-5C8A-4D88-9638-16F630C219D4}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{01B33C46-5C8A-4D88-9638-16F630C219D4}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{01B33C46-5C8A-4D88-9638-16F630C219D4}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B33C46-5C8A-4D88-9638-16F630C219D4}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{01B33C46-5C8A-4D88-9638-16F630C219D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B33C46-5C8A-4D88-9638-16F630C219D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01B33C46-5C8A-4D88-9638-16F630C219D4}.SingleImage|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B33C46-5C8A-4D88-9638-16F630C219D4}.SingleImage|Any CPU.Build.0 = Debug|Any CPU
+		{E669C667-A15E-48CD-BCE5-1CF01B6923CC}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{E669C667-A15E-48CD-BCE5-1CF01B6923CC}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{E669C667-A15E-48CD-BCE5-1CF01B6923CC}.Debug|Any CPU.ActiveCfg = DVD-5
+		{E669C667-A15E-48CD-BCE5-1CF01B6923CC}.Debug|Any CPU.Build.0 = DVD-5
+		{E669C667-A15E-48CD-BCE5-1CF01B6923CC}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{E669C667-A15E-48CD-BCE5-1CF01B6923CC}.DVD-5|Any CPU.Build.0 = DVD-5
+		{E669C667-A15E-48CD-BCE5-1CF01B6923CC}.Release|Any CPU.ActiveCfg = SingleImage
+		{E669C667-A15E-48CD-BCE5-1CF01B6923CC}.Release|Any CPU.Build.0 = SingleImage
+		{E669C667-A15E-48CD-BCE5-1CF01B6923CC}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{E669C667-A15E-48CD-BCE5-1CF01B6923CC}.SingleImage|Any CPU.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
